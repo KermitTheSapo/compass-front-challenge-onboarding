@@ -1,0 +1,105 @@
+/* 92E3A9 - cor de fundo - button */
+/* Poppins - nome da fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --main-color:#92E3A9;
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2 {
+    display: none;
+}
+
+.page3 {
+    display: none;
+}
+
+.contentPageOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+}
+
+.contentPageOne h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.contentPageOne p {
+    width: 80%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.contentPageTwo {
+    display: none;
+}
+.contentPageThree {
+    display: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 20%;
+    height: 10vh;
+}
+
+.buttonOn {
+    background-color: var(--main-color);
+}
+
+.buttonOff {
+    border: solid 1px;
+}
+
+.buttonOn, .buttonOff{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 20.5vh;
+}
+
+button {
+    height: 54px;
+    width: 304px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 4px 10px 0px #A1C3FC;   
+    border: none;
+}
+
+.skip {
+    text-decoration: none;
+    color: var(--main-color);
+}
