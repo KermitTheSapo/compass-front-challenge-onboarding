@@ -5,6 +5,8 @@ const sectionMain = document.querySelector(".sectionMain")
 const img = document.querySelector(".mainImg")
 const title = document.querySelector(".title")
 const paragraph = document.querySelector(".paragraph")
+const ContinueButton = document.querySelector(".ContinueButton")
+const skipParagraph = document.querySelector(".skipParagraph")
 let counter = '0'
 
 
@@ -22,6 +24,8 @@ function next() {
         img.setAttribute('src', "imgs/page3.png")
         ButtonTwo.setAttribute('style', 'background-color: white;')
         ButtonThree.setAttribute('style', 'background-color: var(--main-color);')
+        ContinueButton.innerHTML = "Get started"
+        skipParagraph.setAttribute('style', 'display: none;')
         counter = '2'
     } 
 }
