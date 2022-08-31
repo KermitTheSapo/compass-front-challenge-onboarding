@@ -67,8 +67,8 @@ figure {
 }
 
 .ButtonOne, .ButtonTwo, .ButtonThree{
-    height: 12px;
-    width: 12px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
 }
 
