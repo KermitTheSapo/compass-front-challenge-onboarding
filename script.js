@@ -27,5 +27,24 @@ function next() {
         ContinueButton.innerHTML = "Get started"
         skipParagraph.setAttribute('style', 'display: none;')
         counter = '2'
-    } 
+    } else{
+
+    }
 }
+
+function skip() {
+    if (counter === '0') {
+        ButtonOne.setAttribute('style', 'background-color: white;')
+        ButtonThree.setAttribute('style', 'background-color: var(--main-color);')
+        skipParagraph.setAttribute('style', 'display: none;')
+        img.setAttribute('src', "imgs/page3.png")
+        title.innerHTML = "Buy & Sell Tools"
+        paragraph.innerHTML = "Buy & sell good quality products for your beautiful plants"
+        ContinueButton.innerHTML = "Get started"
+        counter = '1'
+    }else {
+
+    }
+}
+
+

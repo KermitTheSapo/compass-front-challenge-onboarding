@@ -91,7 +91,7 @@ button {
     border: none;
 }
 
-.skip {
+.skipParagraph {
     text-decoration: none;
     color: var(--main-color);
 }
