@@ -1,36 +1,27 @@
-const button = document.querySelector(".buttonOn")
+const ButtonOne = document.querySelector(".ButtonOne")
+const ButtonTwo = document.querySelector(".ButtonTwo")
+const ButtonThree = document.querySelector(".ButtonThree")
 const sectionMain = document.querySelector(".sectionMain")
-const imagem = document.querySelector(".mainImg")
+const img = document.querySelector(".mainImg")
 const title = document.querySelector(".title")
 const paragraph = document.querySelector(".paragraph")
+let counter = '0'
 
-let contador = '0'
-
-// function handleChange() {
-//     if (contador === '0') {
-//         button.className = "buttonOff"
-//         contador = '1'
-//     } else {
-//         button.className = "buttonOn"
-//         contador = '0'
-//     }
-// }
 
 function next() {
-    if (contador === '0') {
-        imagem.setAttribute('src', "imgs/page2.png")
+    if (counter === '0') {
+        img.setAttribute('src', "imgs/page2.png")
         title.innerHTML = "Get fast & safe delivery"
         paragraph.innerHTML = "Get good quality products for your plants "
-        contador = '1'
-    } else if (contador === '1') {
+        ButtonOne.setAttribute('style', 'background-color: white;')
+        ButtonTwo.setAttribute('style', 'background-color: var(--main-color);')
+        counter = '1'
+    } else if (counter === '1') {
         title.innerHTML = "Buy & Sell Tools"
         paragraph.innerHTML = "Buy & sell good quality products for your beautiful plants"
-        imagem.setAttribute('src', "imgs/page3.png")
-        contador = '2'
+        img.setAttribute('src', "imgs/page3.png")
+        ButtonTwo.setAttribute('style', 'background-color: white;')
+        ButtonThree.setAttribute('style', 'background-color: var(--main-color);')
+        counter = '2'
     } 
-    // else if (contador ==='2'){
-    //     contentPageThree.setAttribute('style', 'display: block')
-    //     imagem.setAttribute('src', "imgs/page3.png")
-    //     contador = '0'
-    // }
 }

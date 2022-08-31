@@ -25,14 +25,6 @@ figure {
     justify-content: center;
 }
 
-.page2 {
-    display: none;
-}
-
-.page3 {
-    display: none;
-}
-
 .sectionMain {
     display: flex;
     flex-direction: column;
@@ -66,15 +58,15 @@ figure {
     height: 10vh;
 }
 
-.buttonOn {
+.ButtonOne {
     background-color: var(--main-color);
 }
 
-.buttonOff {
+.ButtonOne, .ButtonTwo, .ButtonThree {
     border: solid 1px;
 }
 
-.buttonOn, .buttonOff{
+.ButtonOne, .ButtonTwo, .ButtonThree{
     height: 12px;
     width: 12px;
     border-radius: 50%;
