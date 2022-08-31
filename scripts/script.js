@@ -9,8 +9,7 @@ const ContinueButton = document.querySelector(".ContinueButton")
 const skipParagraph = document.querySelector(".skipParagraph")
 let counter = '0'
 
-
-function next() {
+next = () => {
     if (counter === '0') {
         img.setAttribute('src', "imgs/page2.png")
         title.innerHTML = "Get fast & safe delivery"
@@ -27,12 +26,10 @@ function next() {
         ContinueButton.innerHTML = "Get started"
         skipParagraph.setAttribute('style', 'display: none;')
         counter = '2'
-    } else{
-
     }
 }
 
-function skip() {
+skip = () => {
     if (counter === '0'|| counter === '1') {
         ButtonOne.setAttribute('style', 'background-color: white;')
         ButtonTwo.setAttribute('style', 'background-color: white;')
@@ -43,12 +40,11 @@ function skip() {
         paragraph.innerHTML = "Buy & sell good quality products for your beautiful plants"
         ContinueButton.innerHTML = "Get started"
         counter = '1'
-    }else {
-
     }
 }
 
-function pageOne() {
+
+pageOne = () => {
     if (counter === '1' || counter === '2') {
         img.setAttribute('src', "imgs/page1.png")
         title.innerHTML = "Plant lover community"
@@ -61,7 +57,7 @@ function pageOne() {
     }
 }
 
-function pageTwo() {
+pageTwo = () => {
     if (counter === '0'|| counter === '2'|| counter === '1') {
         img.setAttribute('src', "imgs/page2.png")
         title.innerHTML = "Get fast & safe delivery"
@@ -74,8 +70,7 @@ function pageTwo() {
     }
 }
 
-
-function pageThree() {
+pageThree = () => {
     if(counter === '0'|| counter === '1') {
         title.innerHTML = "Buy & Sell Tools"
         paragraph.innerHTML = "Buy & sell good quality products for your beautiful plants"
@@ -87,5 +82,4 @@ function pageThree() {
         skipParagraph.setAttribute('style', 'display: none;')
         counter = '2'
     }
-    
 }
