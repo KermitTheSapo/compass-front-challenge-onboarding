@@ -53,6 +53,7 @@ pageOne = () => {
         ButtonTwo.setAttribute('style', 'background-color: white;')
         ButtonThree.setAttribute('style', 'background-color: white;')
         skipParagraph.setAttribute('style', 'display: block;')
+        ContinueButton.innerHTML = "Continue"
         counter = '0'
     }
 }
@@ -66,6 +67,7 @@ pageTwo = () => {
         ButtonTwo.setAttribute('style', 'background-color: var(--main-color);')
         ButtonThree.setAttribute('style', 'background-color: white;')
         skipParagraph.setAttribute('style', 'display: block;')
+        ContinueButton.innerHTML = "Continue"
         counter = '1'
     }
 }
