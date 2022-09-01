@@ -100,16 +100,16 @@ button {
 
 @media (min-width: 767px){
     .sectionMain{
-        height: 25vh;
+        height: 20vh;
     }
     .buttons{
-        height: 25vh;
+        height: 20vh;
     }
     .title{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .paragraph {
-        font-size: 1.5rem;
+        font-size: 2rem;
         width: 60%;
     }
     .ButtonOne, .ButtonTwo, .ButtonThree{
@@ -148,6 +148,25 @@ button {
         height: 25vh;
     }
 }
+
+@media (min-width: 400px) and (min-height: 800px) {
+    .sectionMain{
+        height: 30vh;
+    }
+    .buttons{
+        height: 23.8vh;
+    }
+}
+
+@media (min-width: 400px) and (min-height: 1100px) {
+    .sectionMain{
+        height: 35vh;
+    }
+    .buttons{
+        height: 29.5vh;
+    }
+}
+
 @media (max-width: 414px){
     .sectionMain{
         height: 25vh;
@@ -167,6 +186,7 @@ button {
     .buttons{
         height: 28vh;
     }
+
 }
 @media (max-width: 413px) and (max-height: 915px) {
     .sectionMain{
@@ -201,7 +221,7 @@ button {
 
 @media (max-width: 376px){
     .sectionMain{
-        height: 20vh;
+        height: 25vh;
     }
     .buttons{
         height: 25vh;
@@ -233,7 +253,13 @@ button {
     }
 }
 
-@media (min-width: 280px) {
+@media (min-width: 320px) and (max-width: 350px) and (max-height: 830px){
+    .buttons{
+        height: 25vh;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 300px){
     .sectionMain{
         height: 25vh;
     }
@@ -244,7 +270,7 @@ button {
         height: 40vh;
     }
     .title {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .paragraph {
         font-size: 0.8rem;
@@ -268,7 +294,7 @@ button {
         font-size: 1.5rem;
     }
     .mainImg{
-        height: 42vh;
+        height: 50vh;
     }
 }
 
@@ -291,7 +317,7 @@ button {
         width: 25px;
     }
     .mainImg{
-        height: 42vh;
+        height: 50vh;
     }    
 }
 
@@ -312,7 +338,7 @@ button {
         height: 20vh;
     }
     .mainImg{
-        height: 47vh;
+        height: 50vh;
     }
     .title {
         font-size: 3rem;
@@ -336,7 +362,7 @@ button {
 }
 
 
-@media (min-width: 1600px){
+@media (min-width: 1600px) and (max-width: 1700px){
     .skipParagraph {
         font-size: 1.5rem;
     }
@@ -356,3 +382,13 @@ button {
         height: 45vh;
     }
 }
+
+@media (min-width: 1700px){
+    .mainImg{
+        height: 50vh;
+    }
+    .skipParagraph {
+        font-size: 1.5rem;
+    }
+}
+
