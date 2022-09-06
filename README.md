@@ -25,7 +25,7 @@
   </a>
 
 <h4 align="center"> 
-	 Status: Doing
+	 Status: Done
 </h4>
 
 <p align="center">
@@ -54,9 +54,9 @@ A website with steps screen
     - [X] image change
     - [X] paragraph change
     - [X] Skip button
-    - [ ] circle button
-- [ ] responsive design
-    - [ ] for all screens
+    - [X] circle button
+- [X] responsive design
+    - [X] for all screens
 
 ---
 
