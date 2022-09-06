@@ -49,7 +49,7 @@ A website with steps screen
     - [X] ready structure
 - [X] Css
     - [X] Defined colors and size
-- [ ] Javascript
+- [X] Javascript
     - [X] button to continue
     - [X] image change
     - [X] paragraph change
